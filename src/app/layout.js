@@ -1,4 +1,9 @@
+// src/app/layout.js
 
+import React from 'react';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import './styles/globals.css';
 
 export const metadata = {
   title: "Meu Shop.com",
@@ -8,7 +13,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

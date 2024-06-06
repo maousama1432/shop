@@ -1,0 +1,30 @@
+/* src/components/styles/Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-product {
+    margin-right: 10px;
+  }
+  
+  .marketing-phrase {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
