@@ -1,10 +1,9 @@
-export default function Spimmer{
+import Image from "next/image";
+
+export default function Spinner(){
     return(
-        <image
-        width={100}
-        height={100}
-        src="/loading.svg"
-        
-        >
+        <div style={{textAlign: "center", marginTop: "20px"}}>
+            <Image src="/loading.svg" alt="Imagem Carregando..." width={55} height={55} />        
+        </div>
     );
 }
