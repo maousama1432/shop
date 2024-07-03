@@ -1,15 +1,14 @@
-// src/components/Header.js
-
 import React from 'react';
 import './styles/Header.css';
 
-const Header = () => {
+const Header = ({ cartItemCount }) => {
   return (
     <header className="header">
       <div className="logo">Meu Shop.com</div>
       <div className="icons">
-        <button className="add-product">Adicionar Produto</button>
-        <div className="cart-icon">🛒</div>
+        <div className="cart-icon">
+          🛒 <span>{cartItemCount}</span>
+        </div>
       </div>
       <p className="marketing-phrase">As melhores ofertas para você!</p>
     </header>
