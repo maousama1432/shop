@@ -1,5 +1,3 @@
-// src/app/not-found.js
-
 import React from 'react';
 
 const NotFound = () => {
