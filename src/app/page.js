@@ -1,10 +1,8 @@
-// src/app/page.js
-
 import React from 'react';
 import Main from '@/components/Main';
 
-export default async function Home() {
+export default function Home({ cart, setCart }) {
   return (
-    <Main />
+    <Main cart={cart} setCart={setCart} />
   );
 }
